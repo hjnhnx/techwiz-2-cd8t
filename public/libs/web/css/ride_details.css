@@ -1,0 +1,44 @@
+body ,Html{
+    margin: 0;
+    padding: 0;
+}
+.root {
+    width: 100%;
+}
+
+
+.container_content {
+    margin: 30px auto;
+    border-radius: 5px;
+    padding: 30px;
+    height: 600px;
+    width: 800px;
+    background-image: linear-gradient(to bottom right, #f7f3ca, #bdf7a8);
+}
+@media only screen and (min-width: 600px) {
+
+}
+.content {
+    margin: auto;
+}
+
+.detail {
+    margin-left: 30px;
+}
+
+.detail  h2{
+    margin-top: 10px;
+}
+
+.table {
+    display: block;
+    margin:  auto;
+}
+
+button {
+    width: 120px;
+}
+
+.btn_container{
+    margin-top: 40px;
+}

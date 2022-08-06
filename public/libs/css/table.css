@@ -1,0 +1,313 @@
+.rounded-circle {
+    border: #29e929 2px solid;
+    width: 70px;
+    height: 70px;
+}
+
+/*day la cmt*/
+label.error {
+    color: red !important;
+    font-size: 12px !important;
+}
+
+.active {
+    background: #913f9e;
+}
+label.error {
+    color: red !important;
+    font-size: 12px !important;
+}
+
+/*********************SELECT OPTION*********************/
+.pt_select {
+    -webkit-appearance: revert !important;
+}
+
+select option {
+    margin: 40px;
+    border: 0 !important;
+    background: #202940;
+    color: #a9afbbd1;
+}
+
+div.ptselect {
+    border-bottom: 1px solid #2d354a !important;
+}
+
+select {
+    color: #a9afbbd1;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
+    outline: 0;
+    box-shadow: none;
+    border: 0 !important;
+
+    background: #202940;
+    flex: 1;
+    cursor: pointer;
+}
+
+div.select {
+
+}
+
+.pt-wrap-plus {
+    border: #a9afbbd1 solid 1px !important;
+    cursor: pointer;
+}
+
+.pt-wrap-plus {
+    height: 100px;
+    border: 2px solid #dee2e6 !important;
+    border-radius: 5px;
+    width: 100px;
+}
+
+.pt-plus {
+    font-size: 30px;
+}
+
+.pt-cr-img {
+    justify-content: center;
+    align-items: center;
+}
+
+.table th h3 {
+    text-align: center;
+}
+
+.table tr td {
+    /*text-align: center;*/
+}
+.td-left, .td-left tr td{
+    text-align: left;
+}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {
+    opacity: 0.7;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10000; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0, 0, 0); /* Fallback notification */
+    background-color: rgba(0, 0, 0, 0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {
+        -webkit-transform: scale(0)
+    }
+    to {
+        -webkit-transform: scale(1)
+    }
+}
+
+@keyframes zoom {
+    from {
+        transform: scale(0)
+    }
+    to {
+        transform: scale(1)
+    }
+}
+
+/* The Close Button */
+.close {
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    color: #f1f1f1;
+    font-size: 40px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+    color: #bbb;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px) {
+    .modal-content {
+        width: 100%;
+    }
+}
+
+.show_color {
+    margin: auto;
+    width: 120px;
+    height: 30px;
+}
+
+.avatar_user {
+    border: 5px #920093 solid;
+    border-radius: 25px;
+}
+
+.card-container h3 {
+    display: inline;
+}
+
+.card-container form {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+::placeholder {
+    color: #b8b2b2;
+    border-bottom: #b8b2b2 1px solid;
+}
+
+.card-container button {
+    outline: none;
+}
+
+.select {
+    width: 200px;
+    margin-left: 10px;
+}
+
+.card-container input {
+    background: none;
+    margin-left: 30px;
+    min-width: 250px;
+    border: none;
+    color: white;
+    text-decoration: #b8b2b2 solid;
+}
+
+/*
+products
+*/
+.img_products {
+    width: 70px;
+    height: 70px;
+}
+
+
+.form-product-container {
+    margin-top: 100px
+}
+
+.form-product-container > div > div {
+    margin: auto
+}
+
+.select-category {
+    border-bottom: #424345 1px solid !important;
+    width: 200px;
+    padding-bottom: 10px
+}
+
+.container-addoption {
+    height: 100px;
+    width: 100px;
+    border: #0a6ebd 1px solid;
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 3px
+}
+
+
+.container-addoption > div {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+
+
+.container-addoption > div > h1 {
+    font-size: 30px
+}
+
+
+#image-view {
+    display: inline-block;
+    margin-left: 10px;
+    margin-bottom: 20px
+}
+
+.form_items > hr {
+    color: red !important;
+    height: 5px;
+    width: 80%;
+    z-index: 1000000
+}
+
+.form_items .size {
+    width: 100%;
+    text-align: center
+}
+
+.form_items .color {
+    width: 100%;
+    text-align: center
+}
+
+
+#btn_add_option {
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    border: #0a6ebd 1px solid;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto
+}
+
+
+
+
+
